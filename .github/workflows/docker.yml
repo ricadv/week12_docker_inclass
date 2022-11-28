@@ -22,10 +22,10 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: rdevera8/rica-eval4640-app:latest
+          tags: rdevera8/app:latest
 
       - name: Build and push
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: rdevera8/rica-eval4640-web:latest
+          tags: rdevera8/web:latest
