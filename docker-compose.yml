@@ -3,14 +3,14 @@ version: '3'
 
 services:
   app:
-    build: app
-    #image: rdevera8/eval4640-web:latest
+          #build: app
+    image: rdevera8/rica-eval4640-app:latest
     env_file:
       - variables.env
 
   web:
-    build: web
-    #image: rdevera8/eval4640-app:latest
+          #build: web
+    image: rdevera8/rica-eval4640-web:latest
     env_file:
       - variables.env
     ports:
