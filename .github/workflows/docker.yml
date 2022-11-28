@@ -1,4 +1,4 @@
-me: inclass_docker
+name: inclass_docker
 
 on:
   push:
